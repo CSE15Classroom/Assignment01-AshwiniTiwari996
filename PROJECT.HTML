@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone</title>
+    <style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e3e6e6;
+}
+
+
+.top-nav {
+    background: #2f496c;
+    color: rgb(193, 184, 184);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: orange;
+    margin-right: 15px;
+}
+
+.logo span {
+    color: rgb(29, 5, 5);
+}
+
+.location {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.search-box {
+    display: flex;
+    flex: 1;
+}
+
+.search-box select,
+.search-box input {
+    padding: 8px;
+    border: none;
+}
+
+.search-box input {
+    flex: 1;
+}
+
+.search-box button {
+    background: orange;
+    border: none;
+    padding: 8px 10px;
+}
+
+.cart {
+    font-size: 16px;
+}
+
+
+.content{
+      background: linear-gradient(to right, #d67e7e 40%, #f3efe6 60%);
+     padding: 10px;
+}
+.hero-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:30px
+}
+
+.hero-image img{
+    height: 260px;
+    padding:0px ;
+    border: solid black 2px;
+    border-radius:10px;
+}
+
+.items{
+    background: linear-gradient(to right, #da7c7c 40%, #f3efe6 60%);
+}
+
+.offer-box{
+    text-align: center;
+}
+.offer-box hr{
+    margin: 6px 0;
+    border: none;
+    height: 1px;
+    width:1100px;
+    background: #ddd;
+}
+
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4,80fr);
+    gap: 20px;
+    padding: 2px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2,80fr );
+    gap: 10px;
+}
+
+.card-grid img {
+    width: 100%;
+}
+
+.card a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+
+
+    </style>
+ </head>
+ <body>
+
+
+ <header class="top-nav">
+    <div class="logo">amazon<span>.in</span></div>
+
+    <div class="location">
+        Delivering to ABESEC Gate Number:2<br>
+        <b>Update location</b>
+    </div>
+
+    <div class="search-box">
+        <select>
+            <option>All</option>
+        </select>
+        <input type="text" placeholder="Search Amazon.in">
+        <button>🔍</button>
+    </div>
+
+        <div>Returns<br><b>& Orders</b></div>
+        <div class="cart">🛒 Cart</div>
+    </div>
+ </header>
+
+
+   <div class="content">
+    
+        <div class="hero-content">
+            <h1 style="text-align: center;">Starting at ₹99</h1>
+        </div>
+
+        <div class="offer-box">
+            <span class="free">Free delivery on first order</span>
+            <hr>
+            <span class="discount">Up to 10% Instant Discount*</span>
+            <small>*T&C apply</small>
+        </div>
+    
+   
+    <div class="hero-image">
+            <img src="https://www.eurokidsindia.com/blog/wp-content/uploads/2023/11/montessori-kitchen-tools-for-cooking-with-your-toddler-870x570.jpg"
+             alt="Kitchen items">
+    </div>
+     </div>
+
+<div class="items">
+<section class="cards-container">
+
+    <div class="card">
+        <h2>Revamp your home in style</h2>
+        <div class="card-grid">
+            <div>
+                <img src="https://nestasia.in/cdn/shop/files/SpringtimeCushionCase_6.jpg?v=1704446814">
+                <p>Cushion covers</p>
+            </div>
+            <div>
+                <img src="https://media-uk.landmarkshops.in/cdn-cgi/image/h=750,w=750,q=85,fit=cover/homecentre/1000009215541-1000009215540_01-2100.jpg">
+                <p>Figurines</p>
+            </div>
+            <div>
+                <img src="https://picketandrail.com/cdn/shop/articles/ten-ways-to-organizing-storage-space-for-small-homes-930347.jpg?v=1686388587">
+                <p>Home storage</p>
+            </div>
+            <div>
+                <img src="https://www.stouchlighting.com/hubfs/Lighting%20Shades%20Blog%20Sized%20Image.png">
+                <p>Lighting</p>
+            </div>
+        </div>
+        <a href="#">Explore all</a>
+    </div>
+
+    <div class="card">
+        <h2>Bulk order discounts</h2>
+        <div class="card-grid">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DRCtHRVd3MjvGS1T6ozedvaHiyhYYDp3tA&s">
+                <p>Laptops</p>
+            </div>
+            <div>
+                <img src="https://fooddrinklife.com/wp-content/uploads/2023/08/small-kitchen-appliances-dp.jpg">
+                <p>Kitchen appliances</p>
+            </div>
+            <div>
+                <img src="https://images-cdn.ubuy.co.in/66d8a207cb2bce209b4bd53c-modern-l-shape-executive-desk-brown.jpg">
+                <p>Office furniture</p>
+            </div>
+            <div>
+                <img src="https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/purchasing_291281279.jpg">
+                <p>Business purchases</p>
+            </div>
+        </div>
+        <a href="#">See more</a>
+    </div>
+
+    <div class="card">
+        <h2>Appliances for your home</h2>
+        <div class="card-grid">
+            <div>
+                <img src="https://www.myg.in/images/blog/9/Benefits_of_AC.jpg">
+                <p>Air conditioners</p>
+            </div>
+            <div>
+                <img src="https://www.electrolux.in/contentassets/3ddf61ff44ac428ca03bee505168c496/pseerf220ma00001-750x730.jpg?width=464">
+                <p>Refrigerators</p>
+            </div>
+            <div>
+                <img src="https://cdn.thewirecutter.com/wp-content/media/2025/07/NN-CV87KS_handout_from_Panasonic-1-scaled.jpg?auto=webp&quality=75&crop=1.91:1&width=1200">
+                <p>Microwaves</p>
+            </div>
+            <div>
+                <img src="https://media3.bsh-group.com/Product_Shots/5120x/21433238_WG34A20PIN_PGA4_def.webp">
+                <p>Washing machines</p>
+            </div>
+        </div>
+        <a href="#">See more</a>
+    </div>
+
+    <div class="card">
+        <h2>Deals on home essentials</h2>
+        <div class="card-grid">
+            <div>
+                <img src="https://housing.com/news/wp-content/uploads/2024/01/Bathroom-cleaning-checklist-Benefits-tools-steps-f.jpg">
+                <p>Cleaning supplies</p>
+            </div>
+            <div>
+                <img src="https://images-cdn.ubuy.com.pk/65be4e78f06a2835fd6034e2-bathroom-accessories-set-wall-mounted.jpg">
+                <p>Bathroom accessories</p>
+            </div>
+            <div>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/close-up-of-tools-hanging-on-wall-royalty-free-image-760251967-1563391812.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*">
+                <p>Home tools</p>
+            </div>
+            <div>
+                <img src="https://images.jdmagicbox.com/quickquotes/images_main/-710wfdxn.jpg">
+                <p>Wallpapers</p>
+            </div>
+        </div>
+        <a href="#">Explore all</a>
+    </div>
+
+</section>
+</div>
+
+</body>
+</html>
